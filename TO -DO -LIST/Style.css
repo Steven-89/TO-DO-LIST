@@ -1,0 +1,88 @@
+/*
+ todoList style
+*/
+
+/*variables*/
+:root {
+	--righteous-font: 'Righteous', cursive;
+}
+
+/*STILE CORPO DELLA PAGINA*/
+
+body {
+	background-color: white;
+    min-height: 100vh;
+    z-index: -10;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+    font-size: 1.3rem;		    
+}
+
+/*stile dello sfondo*/
+
+.sfondo{
+    
+    background-image: url(imp2.jpg);
+    background-size: cover;
+    position: auto;
+    background-repeat: repeat;
+}
+
+/*stile della barra di insrimento e del pulsante di registrazione e del testo princpale */
+.hero {
+	position: absolute;
+    min-height: 100vh;
+    min-width: 100vw;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(31, 34, 118, 0.5);
+}
+
+/*stile del titolo*/
+
+h1 {
+	margin-top: 12rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-family: var(--righteous-font);
+}
+
+/*stile del sottotitolo*/
+.lead {
+	font-size: 1.5rem;
+	font-family: var(--righteous-font);
+}
+
+/*stile della lista degli item*/
+
+ul {
+	/*border-top: 2px solid white;*/
+	margin-top: 2rem;
+	list-style: none;
+	/*display: none;*/
+}
+li {
+	border-bottom: 1px solid white;
+	padding: 0.5rem 0 0.5rem 0;
+	margin: 0 1rem 0 1rem;
+    
+}
+
+
+
+/*stile delle checkbox*/
+
+.checkboxes {
+	float: right;
+	line-height: 15px;
+	width: 17px;
+	height: 17px;
+	background-color: #e9ecef;
+	border: 1px solid #e9ecef;
+	border-radius: 3px;
+}
+
+
+

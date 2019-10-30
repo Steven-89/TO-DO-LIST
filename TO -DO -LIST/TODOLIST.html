@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TODOLIST</title>
+    
+    <!--------------------------------------
+        RICHIAMO DI BOOTSTRAP GOOGLE FONTS E DEL FILE CSS
+    ----------------------------------------> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Style.css">	
+</head>
+
+
+<body>
+    
+  <!----------------------------------------------------
+    CLASSE SFONDO RICHIAMATA IN CSS PER INSERIRE SFONDO
+  ------------------------------------------------------>
+    <body class="sfondo">
+        
+<!------------------------------------------------
+   BARRA DI INSERIMENTO DEI DATI DELLA TO-DO LIST
+   E PULSANTE PER REGISTRARE L'IMPEGNO INSERITO
+-------------------------------------------------->
+	<div class="hero">
+		<div class="container">
+			<h1 class="display-2 text-center">TO-DO-LIST</h1>
+			<p class="lead text-center">Lista degli impegni</p>
+			<div class="row">
+				<form id="form" class="col-lg-6 col-8 mx-auto">
+					<div class="input-group">
+						<input id="input" class="form-control" placeholder="immetti nella to do list" value="inserisci qui in tuo impegno">
+						<span>
+							<button id="btn" type="button" class="btn btn-primary">Registra il tuo impegno</button>
+						</span>
+					</div>			     
+				</form>
+			</div>		
+            
+            
+ 
+            
+            
+            <!-----------------------------------------------------
+                CHECKBOX PER SPUNTARE L'IMPEGNO GIA' INSERITO 
+                PULSANTE PER CANCELLARE TUTTI GLI IMPEGNI INSERITI
+            -------------------------------------------------------->
+            
+			<div class="row">				
+				<ul id="list" class="list col-lg-6 col-8 mx-auto">
+    
+            
+                    
+                    
+
+					<!-- <li>this is a todo item <input type="checkbox" class="checkbox"></li>
+					<li>this is a todo item <input type="checkbox" class="checkbox">
+                    </li> -->
+
+                    
+            
+            
+
+				</ul>
+			</div>
+			<div class="row">
+				<button id="btnClr" type="button" class="btn btn-primary mx-auto btnHide">Cancella tutti gli impegni</button>
+			</div>				
+		</div>
+	</div>
+    </body>
+    
+    <footer>
+        <div class="footer-copyright text-center py-3">© Copyright: Stefano Latte.
+        </div>
+    </footer>
+    
+    <!------------------------------------------------
+        SCRIPT DI RICHIAMO AL FILE JAVASCRIPT
+    -------------------------------------------------->
+	<script type="text/javascript" src="js/index.js"></script>
+	
+</body>
+</html>
